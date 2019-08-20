@@ -29,7 +29,7 @@ def deletePost(year):
             
 #%%
 if __name__=="__main__":
-    app=[]
+    post=[]
     username="@username"
     year=1
     api=auth_login(CONSUMER_KEY,CONSUMER_SECRET,ACCESS_TOKEN,ACCESS_TOKEN_SECRET)
